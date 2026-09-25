@@ -1,0 +1,78 @@
+{
+    "version": 1,
+    "name": "MyInputAction",
+    "maps": [
+        {
+            "name": "VR Control Izquierdo",
+            "id": "36179ed9-2083-4365-8b74-0ddf7a2bc460",
+            "actions": [
+                {
+                    "name": "Eje2D Sector Norte",
+                    "type": "Value",
+                    "id": "5e914b49-55bd-4f2c-b0e9-8391b6803be0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Accion Primaria",
+                    "type": "Button",
+                    "id": "1b3fc14c-d037-4bac-b039-4e44ba136f96",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Menú",
+                    "type": "Button",
+                    "id": "40a643b6-1b43-4b0a-9ffb-f6608fbeed04",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4646ac86-7f5b-495f-9f8e-93ed8fbb175c",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector Norte",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4be7be9e-d141-4beb-a7c7-8281cd4e4303",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accion Primaria",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f36fae74-247d-4040-8043-55a042b1f957",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menú",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
