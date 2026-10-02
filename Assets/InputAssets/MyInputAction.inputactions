@@ -7,13 +7,33 @@
             "id": "36179ed9-2083-4365-8b74-0ddf7a2bc460",
             "actions": [
                 {
-                    "name": "Eje2D Sector Norte",
-                    "type": "Value",
-                    "id": "5e914b49-55bd-4f2c-b0e9-8391b6803be0",
-                    "expectedControlType": "Vector2",
+                    "name": "Disparador",
+                    "type": "Button",
+                    "id": "40e284a9-fc0c-4ebb-9384-0f1f11eda302",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true,
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Agarre",
+                    "type": "Button",
+                    "id": "bff45800-db71-49ad-802d-bd0dba2c8e85",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Menú",
+                    "type": "Button",
+                    "id": "40a643b6-1b43-4b0a-9ffb-f6608fbeed04",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
                     "priority": 0
                 },
                 {
@@ -27,9 +47,59 @@
                     "priority": 0
                 },
                 {
-                    "name": "Menú",
+                    "name": "Accion Secundaria",
                     "type": "Button",
-                    "id": "40a643b6-1b43-4b0a-9ffb-f6608fbeed04",
+                    "id": "63cca8e9-5a93-4c14-847f-efd4a5caefc7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector Norte",
+                    "type": "Value",
+                    "id": "5e914b49-55bd-4f2c-b0e9-8391b6803be0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector Sur",
+                    "type": "Value",
+                    "id": "5d0864c9-b69a-4bb2-b7ea-fb81e17d9806",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector Este",
+                    "type": "Value",
+                    "id": "5fca1b78-cfbc-42c6-ac3a-5f1a3a43876f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Eje2D Sector Oeste",
+                    "type": "Value",
+                    "id": "95582061-b588-4ab3-828b-b51bc1675613",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Botón Eje2D",
+                    "type": "Button",
+                    "id": "ace1bcd1-c15d-4b1d-8266-053c22832e81",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -68,6 +138,83 @@
                     "processors": "",
                     "groups": "",
                     "action": "Menú",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7cadd17d-bce0-4a68-9b3d-df7967d480ab",
+                    "path": "<XRController>{LeftHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparador",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01a4aa85-372d-44f3-909d-c2a24776bc41",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Agarre",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97a5f33d-8dce-4373-bab8-bb110b1b7ea2",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accion Secundaria",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee3dee04-7eb2-4caa-9577-10d91e8ea379",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector Sur",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9cbab88-056a-4b55-900e-23a7fa5ccef5",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector Este",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97b54565-1a25-4f86-939a-7eda8004e7c7",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eje2D Sector Oeste",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52cd366b-7a5a-4706-90f7-a2efbbd78e9a",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Botón Eje2D",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
